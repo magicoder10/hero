@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "lib": [
+      "es2016",
+      "dom"
+    ],
+    "target": "es2015",
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@hero": [
+        "hero/src/index.ts"
+      ]
+    }
+  }
+}
