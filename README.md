@@ -13,7 +13,7 @@ Cross-framework UI Component Framework in TypeScript
 #### Counter
 ![](screenshots/counter.png)
 
-#####counter.component.ts
+##### counter.component.ts
 
 ```typescript
 import {Component} from '@hero';
@@ -37,13 +37,13 @@ export class CounterComponent {
 
 ```
 
-#####counter.component.html
+##### counter.component.html
 
 ```html
 <div>{{seconds}} seconds have elapsed</div>
 ```
 
-#####counter.component.scss
+##### counter.component.scss
 
 ```scss
 ui-counter {
