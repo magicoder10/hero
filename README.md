@@ -6,6 +6,7 @@ Cross-framework UI Component Framework in TypeScript
 - [x] Reference SCSS & HTML files in `@Component` decorator
 - [x] One-way Data Binding
 - [x] Hot Page Reloading
+- [ ] Input & Output
 
 ## Get Started
 ### Examples
