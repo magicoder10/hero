@@ -1,7 +1,60 @@
 # Hero
 Cross-framework UI Component Framework in TypeScript
 
+## Supported Features
+- [x] SCSS as default style preprocessor
+- [x] Reference SCSS & HTML files in `@Component` decorator
+- [x] One-way Data Binding
+- [x] Hot Page Reloading
+
 ## Get Started
+### Examples
+#### Counter
+![](screenshots/counter.png)
+
+#####counter.component.ts
+
+```typescript
+import {Component} from '@hero';
+
+@Component({
+    selector: 'ui-counter',
+    templateUrl: './counter.component.html',
+    styleUrls: ['./counter.component.scss']
+})
+export class CounterComponent {
+    seconds: number;
+
+    constructor() {
+        this.seconds = 0;
+
+        setInterval(()=>{
+            this.seconds++;
+        }, 1000);
+    }
+}
+
+```
+
+#####counter.component.html
+
+```html
+<div>{{seconds}} seconds have elapsed</div>
+```
+
+#####counter.component.scss
+
+```scss
+ui-counter {
+  width: 400px;
+  color: white;
+  display: block;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+```
+
 ### Prerequisites
 - Node.js v8.9.4
 - yarn v1.12.3

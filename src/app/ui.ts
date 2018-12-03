@@ -1,6 +1,6 @@
-import {CalculatorComponent} from './components/calculator.component';
+import {CounterComponent} from './components/counter.component';
 import {bootstrap} from '@hero';
 
 import globalStyle from './ui.scss';
 
-bootstrap(globalStyle, CalculatorComponent);
+bootstrap(globalStyle, CounterComponent);
