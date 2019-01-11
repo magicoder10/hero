@@ -1,11 +1,12 @@
 # Hero
-Cross-framework UI Component Framework in TypeScript
+Proof of Concept Cross-framework UI Component Framework in TypeScript
 
 ## Supported Features
 - [x] SCSS as default style preprocessor
 - [x] Reference SCSS & HTML files in `@Component` decorator
-- [x] One-way Data Binding
+- [x] One-way Data Binding for template
 - [x] Hot Page Reloading
+- [ ] Data Binding for attributes
 - [ ] Input & Output
 
 ## Get Started
